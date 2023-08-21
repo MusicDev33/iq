@@ -1,0 +1,42 @@
+/*
+
+*/
+
+
+$iq-color-primary: #bba2c9;
+
+$iq-color-primary-d1: darken($iq-color-primary, 5%);
+$iq-color-primary-d2: darken($iq-color-primary, 10%);
+
+$iq-color-primary-l1: lighten($iq-color-primary, 10%);
+$iq-color-primary-l2: lighten($iq-color-primary, 15%);
+
+$iq-color-secondary: #ffafcc;
+
+$iq-color-secondary-d1: darken($iq-color-secondary, 5%);
+$iq-color-secondary-d2: darken($iq-color-secondary, 10%);
+
+$iq-color-secondary-l1: lighten($iq-color-secondary, 10%);
+$iq-color-secondary-l2: lighten($iq-color-secondary, 15%);
+
+$iq-color-bg: #a2d2ff;
+
+:root {
+  --iq-color-primary: #{$iq-color-primary};
+  --iq-color-primary-d1: #{$iq-color-primary-d1};
+  --iq-color-primary-d2: #{$iq-color-primary-d2};
+  
+  --iq-color-primary-l1: #{$iq-color-primary-l1};
+  --iq-color-primary-l2: #{$iq-color-primary-l2};
+
+  --iq-color-btn-primary-text: #ffffff;
+
+  --iq-color-secondary: #{$iq-color-secondary};
+  --iq-color-secondary-d1: #{$iq-color-secondary-d1};
+  --iq-color-secondary-d2: #{$iq-color-secondary-d2};
+  
+  --iq-color-secondary-l1: #{$iq-color-secondary-l1};
+  --iq-color-secondary-l2: #{$iq-color-secondary-l2};
+
+  --iq-color-btn-secondary-text: #ffffff;
+}

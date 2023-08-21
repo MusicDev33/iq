@@ -1,0 +1,74 @@
+.iq-btn-fab {
+  width: 100%;
+  border: none;
+  transition: var(--iq-var-transtime);
+
+  background: var(--iq-color-primary);
+
+  padding: 7px 15px;
+  border-radius: 10px;
+  font-weight: 600;
+
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15), 0 3px 4px rgba(0, 0, 0, 0.24);
+
+  color: var(--iq-color-btn-primary-text);
+
+  &:hover {
+    background: var(--iq-color-primary-d1);
+  }
+}
+
+.iq-btn-primary {
+  width: 100%;
+  border: none;
+  transition: var(--iq-var-transtime);
+
+  background: var(--iq-color-primary);
+
+  padding: 7px 15px;
+  border-radius: 999px;
+  font-weight: 600;
+
+  color: var(--iq-color-btn-primary-text);
+
+  &:hover {
+    background: var(--iq-color-primary-d1);
+  }
+}
+
+.iq-btn-secondary {
+  width: 100%;
+  border: none;
+  transition: var(--iq-var-transtime);
+
+  background: var(--iq-color-secondary);
+
+  padding: 7px 15px;
+  border-radius: 999px;
+  font-weight: 600;
+
+  color: var(--iq-color-btn-secondary-text);
+
+  &:hover {
+    background: var(--iq-color-secondary-d1);
+  }
+}
+
+// Think of this as a btn tertiary without having to type that out every time.
+.iq-btn-text {
+  border: none;
+  transition: var(--iq-var-transtime);
+  background: transparent;
+
+  border-bottom: 2px solid transparent;
+
+  font-weight: 700;
+  color: var(--iq-color-primary-d2);
+
+  padding-top: 7px; // TODO: This is a horrible solution
+
+  &:hover {
+    color: var(--iq-color-primary-d1);
+    border-color: var(--iq-color-primary-d1); // TODO: Not sure how I feel about this
+  }
+}

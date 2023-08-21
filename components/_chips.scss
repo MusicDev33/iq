@@ -1,0 +1,25 @@
+.iq-chip {
+  border-radius: var(--iq-var-rad-primary);
+  transition: var(--iq-var-transtime);
+  cursor: pointer;
+  min-width: 50px;
+
+  border: 1px solid var(--iq-color-primary);
+  display: inline-block;
+
+  font-weight: 500;
+  padding: 4px 18px;
+
+  margin-right: 40px;
+
+  &:hover:not(.selected) {
+    background: var(--iq-color-primary-d2);
+    border-color: var(--iq-color-primary-d2);
+    color: var(--iq-color-btn-primary-text);
+  }
+
+  &.selected {
+    background: var(--iq-color-primary);
+    color: var(--iq-color-btn-primary-text);
+  }
+}
